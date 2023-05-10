@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  background-image: url('https://www.infoescola.com/wp-content/uploads/2008/05/capivara-119654188.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: cornsilk;
+  font-family: 'Bruno Ace SC', cursive;
+}
+
+img {
+  width: 300px;
+
+}footer{
+  position: absolute;
+  bottom:0 ;
+  width: 100%
+}
+img:hover{
+  scale: 1.4;
+
+}

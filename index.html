@@ -1,0 +1,37 @@
+   <!-- https://teachablemachine.withgoogle.com/models/kJ56AcgIl/-->
+<html>
+  <head>
+    <title>App Web Identificador de Sons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Links Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Link ml5 -->
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
+    <!-- Link CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Identificador de animais </h1>
+      <p>reproduz os sons de <b>animais </b></p>
+    </header>
+    <main>
+      <button onclick="classificar()" class="btn btn-info">iniciar</button>
+      <h2>posso ouvir som de <span id="resultado"></span>
+      </h2>
+      <h3>precissao <span id="precissao"></span></h3>
+      <br>
+      <img src="https://super.abril.com.br/wp-content/uploads/2018/07/como-funciona-o-ouvido-humano-redes-sociais.jpg" alt="" id="alien1">
+      
+    </main>
+<footer>
+  <h5>desenvolvido por Felipe</h5>
+</footer>
+    <script src="main.js"></script>
+  </body>
+</html>
